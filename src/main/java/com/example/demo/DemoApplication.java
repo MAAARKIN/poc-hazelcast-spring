@@ -22,7 +22,7 @@ public class DemoApplication {
 	@GetMapping(path="/info", produces = "application/json")
 	public Pessoa info() {
 		Pessoa p = new Pessoa();
-		p.setNome("markin");
+		p.setNome("markin v2");
 		
 		System.out.println("chamando o cacheavel");
 		echo();
